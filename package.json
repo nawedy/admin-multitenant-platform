@@ -11,6 +11,7 @@
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=payload.config.ts payload generate:types"
   },
   "dependencies": {
+    "@builder.io/micro-agent": "^0.1.5",
     "@hookform/resolvers": "^3.3.4",
     "@payloadcms/plugin-cloud-storage": "^1.2.0",
     "@payloadcms/richtext-slate": "^1.5.2",
